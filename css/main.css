@@ -708,6 +708,51 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
 
+.anton {
+  background: url(../assets/staff/Anton.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
+.phoenix {
+  background: url(../assets/staff/phoenix.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
+.love {
+  background: url(../assets/staff/love.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
+.johnmark {
+  background: url(../assets/staff/johnmark.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
+.michael {
+  background: url(../assets/staff/Michael.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
+.marlon {
+  background: url(../assets/staff/Marlon.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
+.tom {
+  background: url(../assets/staff/Tom.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
+.calvin {
+  background: url(../assets/staff/calvin.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
+.alonnah {
+  background: url(../assets/staff/calvin.jpg);
+  background-size: cover;
+  background-position: 120% 50%; }
+
 .ryan {
   background: url(../assets/staff/Ryan.jpg);
   background-size: cover;
