@@ -336,6 +336,18 @@ body {
     background-size: cover;
     box-sizing: border-box; }
 
+.partners-hero {
+  min-height: 330px;
+  background: url(../assets/partners.jpg) center center no-repeat;
+  background-size: cover;
+  /* MNLBoutiqueHostel_Guests6: */ }
+  .partners-hero .wrapper {
+    padding: 92px 0px !important;
+    width: auto;
+    height: inherit;
+    background-size: cover;
+    box-sizing: border-box; }
+
 .travel-hero {
   min-height: 330px;
   background: url(../assets/travel/karma.jpg) center center no-repeat;
@@ -640,6 +652,13 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
+
+.partners {
+  width: auto;
+  padding-top: 40px;
+  background-color: white;
+  padding-bottom: 50px;
+  font-weight: 300; }
 
 .wrapper-flex {
   margin: auto;

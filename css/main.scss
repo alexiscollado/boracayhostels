@@ -479,6 +479,25 @@ $brand-font-2: 'Merriweather', sans-serif;
      }
 }
 
+.partners-hero 
+{
+	min-height: 330px;
+	background: url(../assets/partners.jpg) center center no-repeat;
+	background-size: cover;
+	/* MNLBoutiqueHostel_Guests6: */
+     .wrapper 
+     {
+     	padding: 92px 0px !important;
+     	width: auto;
+     	height: inherit;
+     	background-size: cover;
+     	box-sizing: border-box;
+     	
+
+     }
+}
+
+
 
 
 .travel-hero 
@@ -906,6 +925,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+}
+
+.partners {
+	    width: auto;
+    padding-top: 40px;
+    background-color: white;
+    padding-bottom: 50px;
+    font-weight: 300;
 }
 
 .wrapper-flex {
