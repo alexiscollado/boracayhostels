@@ -348,6 +348,18 @@ body {
     background-size: cover;
     box-sizing: border-box; }
 
+.events-hero {
+  min-height: 330px;
+  background: url(../assets/events.jpg) center center no-repeat;
+  background-size: cover;
+  /* MNLBoutiqueHostel_Guests6: */ }
+  .events-hero .wrapper {
+    padding: 92px 0px !important;
+    width: auto;
+    height: inherit;
+    background-size: cover;
+    box-sizing: border-box; }
+
 .travel-hero {
   min-height: 330px;
   background: url(../assets/travel/karma.jpg) center center no-repeat;
@@ -768,7 +780,7 @@ body {
   background-position: 120% 50%; }
 
 .alonnah {
-  background: url(../assets/staff/calvin.jpg);
+  background: url(../assets/staff/alonnah.jpg);
   background-size: cover;
   background-position: 120% 50%; }
 

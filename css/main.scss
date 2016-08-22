@@ -499,6 +499,25 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 
 
+.events-hero 
+{
+	min-height: 330px;
+	background: url(../assets/events.jpg) center center no-repeat;
+	background-size: cover;
+	/* MNLBoutiqueHostel_Guests6: */
+     .wrapper 
+     {
+     	padding: 92px 0px !important;
+     	width: auto;
+     	height: inherit;
+     	background-size: cover;
+     	box-sizing: border-box;
+     	
+
+     }
+}
+
+
 
 .travel-hero 
 {
@@ -1082,7 +1101,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 .alonnah {
-	background:url(../assets/staff/calvin.jpg);
+	background:url(../assets/staff/alonnah.jpg);
 	background-size:cover;
 
 	background-position:120% 50%;
