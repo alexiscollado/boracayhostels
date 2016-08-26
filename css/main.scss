@@ -19,9 +19,12 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .main-navigation {
 	height: 73px;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-    justify-content: space-between;
+	-ms-flex-align: center;
+	    align-items: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
 }
 
 
@@ -128,9 +131,12 @@ $brand-font-2: 'Merriweather', sans-serif;
 	}
 	.land-button
 	{
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
 	color:white;
 	text-decoration: none;
 		width:100%;
@@ -142,10 +148,13 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .landing-navigation {
 	height: 73px;
+	display: -ms-flexbox;
 	display: flex;
 	background-color: #A24176;
-	align-items: center;
-    justify-content: space-between;
+	-ms-flex-align: center;
+	    align-items: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     
     img
     {
@@ -200,10 +209,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 	}
 	
 	.hero-buttons {
+		 display: -ms-flexbox !important;
 		 display: flex !important;
-    flex-direction: column;
-    align-items: center !important;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center !important;
+        align-items: center !important;
+    -ms-flex-pack: center;
+        justify-content: center;
     padding-top: 0px !important;
 	}
 
@@ -356,9 +369,12 @@ $brand-font-2: 'Merriweather', sans-serif;
 	max-width: 191px;
 	height: inherit;
 	font-weight: 300;
+	display: -ms-flexbox;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
 }
 
 .-itema {
@@ -375,9 +391,12 @@ $brand-font-2: 'Merriweather', sans-serif;
 	box-sizing: border-box;
 	text-align: center;
 	transition: 0.2s ease-in;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
 
 	&:hover {
 		
@@ -394,10 +413,13 @@ $brand-font-2: 'Merriweather', sans-serif;
 	border: 1px solid $brand-color;
 	box-sizing: border-box;
 	text-align: center;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
 	transition: 0.2s ease-in;
-	align-items: center;
+	-ms-flex-align: center;
+	    align-items: center;
 
 	&:hover {
 		background: darken($brand-color, 10%);
@@ -737,6 +759,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	
 }
 .wew {
+	display: -ms-flexbox;
 	display: flex;
 	div {
 		width: 50%;
@@ -773,10 +796,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 
 .five-grid {
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	align-items: stretch;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-align: stretch;
+	    align-items: stretch;
 	max-width: 1000px;
 	margin: auto;
 	margin-top: 20px;
@@ -790,11 +817,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 	box-sizing: border-box;
 }
 .grid-item{ 
+	display: -ms-flexbox; 
 	display: flex;
 	max-width: 180px;
 	width: 100%;
 	
-	align-items: center;
+	-ms-flex-align: center;
+	
+	    align-items: center;
 	 font-weight: 600;
 	 font-size: 0.7rem;
 	 text-transform: uppercase;
@@ -920,9 +950,13 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .hero-buttons {
 
+	display: -ms-flexbox;
+
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
 	margin: 0 auto;
 	padding-top: 50px;
 	div {
@@ -940,10 +974,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 /*3- Layout Implementation*/
 .wrapper-column {
 	margin: 0 auto;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
 }
 
 .partners {
@@ -956,12 +994,16 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .wrapper-flex {
 	margin: auto;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	width: 100%;
 	max-width: 1200px;
-	align-items: center;
-	justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
 }
 
 .brand {
@@ -1042,9 +1084,12 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .two-by-two
 {
+	     display: -ms-flexbox;
 	     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
 
 }
 
@@ -1100,8 +1145,8 @@ $brand-font-2: 'Merriweather', sans-serif;
 	background-position:120% 50%;
 }
 
-.alonnah {
-	background:url(../assets/staff/alonnah.jpg);
+.alonnah2 {
+	background:url(../assets/staff/Alonnah.jpg);
 	background-size:cover;
 
 	background-position:120% 50%;
@@ -1253,8 +1298,10 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 .social-media {
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	max-width: 300px;
 	list-style-type: none;
 	margin: 0 auto;
@@ -1290,9 +1337,12 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 .booknow {
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	background: #f5fbff;
 	padding: 30px 0px;
 	div {
